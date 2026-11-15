@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100e">
+  <meta name="description" content="VÉSPERA — hambúrgueres de brasa, pão tostado e noites sem pressa. Cardápio e marca fictícios.">
+  <meta property="og:title" content="VÉSPERA — Hambúrguer de brasa">
+  <meta property="og:description" content="Há noites que pedem brasa.">
+  <meta property="og:image" content="assets/img/vespera-burger.jpg">
+  <title>VÉSPERA — Hambúrguer de brasa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="#inicio" aria-label="Véspera, início">VÉSPERA<span class="marca-ponto">.</span></a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#casa">A casa</a>
+      <a href="#cardapio">Cardápio</a>
+      <a class="nav-cta" href="#visita">Encontre a casa <span aria-hidden="true">↗</span></a>
+    </nav>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="abertura" id="inicio" aria-label="Apresentação da Véspera">
+      <div class="abertura-fixa">
+        <div class="abertura-imagem-wrap"><img class="abertura-imagem" src="assets/img/vespera-burger.jpg" alt="Hambúrguer artesanal com queijo derretido, brasa e fumaça" fetchpriority="high"></div>
+        <div class="abertura-sombra"></div>
+        <div class="abertura-assinatura"><span>HAMBÚRGUER DE BRASA</span><span>•</span><span>DESDE O PRIMEIRO FOGO</span></div>
+        <div class="capitulo capitulo--um">
+          <p class="micro">UMA CASA PARA O FIM DO DIA</p>
+          <h1>Há noites<br>que pedem <em>brasa.</em></h1>
+          <p class="linha-fina">Carne no fogo. Pão na chapa. O resto pode esperar.</p>
+        </div>
+        <div class="capitulo capitulo--dois">
+          <p class="micro">01 / O FOGO</p>
+          <h2>O sabor começa<br>antes do primeiro mordisco.</h2>
+          <p class="linha-fina">Crosta dourada, centro suculento, fumaça na medida.</p>
+        </div>
+        <div class="capitulo capitulo--tres">
+          <p class="micro">02 / À MESA</p>
+          <h2>Chegue com fome.<br>Fique sem pressa.</h2>
+          <a class="botao botao-claro" href="#cardapio">Conheça o cardápio <span>↓</span></a>
+        </div>
+        <div class="progresso"><span></span></div>
+        <div class="indicador-scroll"><span class="indicador-linha"></span>ROLE PARA SENTIR</div>
+      </div>
+    </section>
+
+    <section class="intro secao" id="casa">
+      <div class="intro-grade">
+        <div class="intro-texto painel reveal">
+          <p class="micro cobre">A CASA / 01</p>
+          <h2>O tempo certo<br>tem gosto de <em>fogo.</em></h2>
+          <p>A gente acende a chapa antes de abrir a porta. Doura o pão na manteiga, deixa a carne encontrar o ferro e serve quando tudo está no ponto. Sem atalho entre a cozinha e a mesa.</p>
+          <a class="link-seta" href="#cardapio">O que sai da chapa <span>↘</span></a>
+        </div>
+        <figure class="foto-lateral reveal"><img src="assets/img/vespera-preparo.jpg" alt="Mãos finalizam um hambúrguer artesanal" loading="lazy"><figcaption>FEITO NA HORA, NA CHAPA QUENTE</figcaption></figure>
+      </div>
+      <div class="nota-vertical" aria-hidden="true">VÉSPERA · COZINHA ACESA</div>
+    </section>
+
+    <section class="interludio" aria-label="A carne encontra a chapa">
+      <img class="interludio-img" src="assets/img/vespera-brasa.jpg" alt="Carne selando na chapa sobre o fogo" loading="lazy">
+      <div class="interludio-filtro"></div>
+      <div class="interludio-copy painel reveal"><p class="micro cobre">CALOR, FERRO, PACIÊNCIA</p><p class="interludio-frase">A chapa faz<br>o que o fogo<br><em>promete.</em></p></div>
+      <span class="interludio-legenda">CARNE SELADA NO CALOR ALTO · PREPARO À LA MINUTE</span>
+    </section>
+
+    <section class="cardapio secao" id="cardapio">
+      <div class="cardapio-topo reveal">
+        <div><p class="micro cobre">DA CHAPA / 02</p><h2>O cardápio<br>da <em>noite.</em></h2></div>
+        <p class="cardapio-intro">Poucos ingredientes. Cada um no lugar certo. Escolha seu ritual.</p>
+      </div>
+      <div class="cardapio-corpo">
+        <div class="pratos">
+          <article class="prato reveal"><span class="prato-num">01</span><div><h3>O Véspera</h3><p>Blend da casa, queijo meia cura, cebola na chapa, molho de mostarda tostada e pão amanteigado.</p><small>O PRIMEIRO DA CASA</small></div><span class="preco">R$ 42</span></article>
+          <article class="prato reveal"><span class="prato-num">02</span><div><h3>Fumaça & Mel</h3><p>Blend da casa, cheddar inglês, bacon crocante, picles agridoce e mel de pimenta.</p><small>DOCE, SALGADO, BRASA</small></div><span class="preco">R$ 48</span></article>
+          <article class="prato reveal"><span class="prato-num">03</span><div><h3>Brie de Chapa</h3><p>Blend da casa, brie derretido, cogumelos salteados e folhas frescas no pão tostado.</p><small>INTENSO E MACIO</small></div><span class="preco">R$ 51</span></article>
+          <article class="prato reveal"><span class="prato-num">04</span><div><h3>Batata da Casa</h3><p>Batata rústica, alecrim, sal de parrilla e aioli de alho assado.</p><small>PARA A MESA</small></div><span class="preco">R$ 24</span></article>
+        </div>
+        <figure class="cardapio-foto reveal"><img src="assets/img/vespera-cardapio.jpg" alt="Hambúrguer e batatas fritas com molho da casa" loading="lazy"><figcaption>UMA BOA NOITE COMEÇA POR AQUI</figcaption></figure>
+      </div>
+      <p class="aviso-ficticio">Cardápio, preços e marca são fictícios e servem como demonstração visual.</p>
+    </section>
+
+    <section class="visita secao" id="visita">
+      <img class="visita-img" src="assets/img/vespera-salao.jpg" alt="Salão noturno de uma hamburgueria com luz quente" loading="lazy">
+      <div class="visita-veil"></div>
+      <div class="visita-conteudo painel reveal">
+        <p class="micro cobre">QUANDO A NOITE CHAMA / 03</p>
+        <h2>A mesa está<br>quase <em>posta.</em></h2>
+        <p>Acenda a conversa. A gente cuida da chapa.</p>
+        <form class="reserva-form">
+          <label>Seu nome<input name="nome" autocomplete="name" required placeholder="Como podemos chamar você?"></label>
+          <label>Seu e-mail<input name="email" type="email" autocomplete="email" required placeholder="voce@exemplo.com"></label>
+          <label class="campo-largo">Uma nota para a casa<textarea name="mensagem" rows="2" placeholder="Dia, horário ou algum detalhe"></textarea></label>
+          <button class="botao" type="submit">Pedir uma reserva <span>↗</span></button>
+          <p class="reserva-status campo-largo" role="status" aria-live="polite" aria-atomic="true"></p>
+        </form>
+        <small class="nota-contato">Formulário demonstrativo, sem envio de dados. Configure o e-mail real antes de publicar.</small>
+      </div>
+      <div class="visita-local"><span>ENDEREÇO FICTÍCIO</span><span>VILA MADALENA · SÃO PAULO</span></div>
+    </section>
+  </main>
+
+  <footer class="rodape"><a class="marca" href="#inicio">VÉSPERA<span class="marca-ponto">.</span></a><p>Brasa acesa. Noite aberta.</p><span>© <span data-ano></span> VÉSPERA · PROJETO FICTÍCIO</span></footer>
+</body>
+</html>
