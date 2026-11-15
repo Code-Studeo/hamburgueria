@@ -1,0 +1,24 @@
+{
+  "nome": "VÉSPERA",
+  "slug": "hamburgueria-cinematografica",
+  "status": "projeto demonstrativo fictício",
+  "negocio": "Hamburgueria premium de brasa",
+  "publico": "Pessoas que procuram hambúrgueres artesanais e um salão noturno acolhedor",
+  "identidade": {
+    "cores": { "fundo": "#11100E", "texto": "#F2EDE4", "acento": "#C47A45" },
+    "fontes": { "titulo": "Fraunces", "texto": "Inter Tight" },
+    "clima": ["noturno", "quente", "editorial"],
+    "tema": "escuro"
+  },
+  "logo": "logotipo tipográfico VÉSPERA",
+  "conceito": "O fogo, a fumaça e a luz noturna transformam cada hambúrguer em um pequeno ritual.",
+  "cardapio": [
+    { "nome": "O Véspera", "descricao": "Blend da casa, queijo meia cura, cebola na chapa, molho de mostarda tostada e pão amanteigado.", "preco_demo": "R$ 42" },
+    { "nome": "Fumaça & Mel", "descricao": "Blend da casa, cheddar inglês, bacon crocante, picles agridoce e mel de pimenta.", "preco_demo": "R$ 48" },
+    { "nome": "Brie de Chapa", "descricao": "Blend da casa, brie derretido, cogumelos salteados e folhas frescas no pão tostado.", "preco_demo": "R$ 51" },
+    { "nome": "Batata da Casa", "descricao": "Batata rústica, alecrim, sal de parrilla e aioli de alho assado.", "preco_demo": "R$ 24" }
+  ],
+  "endereco_demo": "Vila Madalena, São Paulo",
+  "contato_demo": "reservas@vespera.example",
+  "imagens": "Fornecidas pelo usuário, geradas no Gemini; cópias organizadas em assets/img."
+}
